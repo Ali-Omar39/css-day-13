@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background: #aaa;
+    height: 60px;
+    width: 100%;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation >h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px;
+}
+.navigation >ul{
+    display: flex;
+    padding: 20px 0px;
+}
+.navigation >ul>li{
+    padding: 0px 20px;
+}
+/* css responsive */
+@media only screen and (max-width: 600px) {
+    .navigation{
+        background: #05bae3;
+    }
+    .navigation>h1{
+        display: block;
+    }
+} 
